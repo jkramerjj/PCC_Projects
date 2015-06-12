@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+/* 11-05-13 I tried a master container with a coffee cup background, but I think it is too busy. I'm going to try a gradient generator
+
+#master_container {
+	width: 1500px;
+	background-image: url(background_coffee1600x1200.jpg);
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 9px;
+	margin-top: -2px;
+	padding-bottom: 179px;
+}  */
+
+#container {
+	width: 960px;
+	min-width: 520px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* radient background*/
+
+body {
+	background: #c19e67; 
+
+background: -moz-linear-gradient(top,  #c19e67 58%, #f3e2c7 97%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(58%,#c19e67), color-stop(97%,#f3e2c7)); 
+
+background: -webkit-linear-gradient(top,  #c19e67 58%,#f3e2c7 97%); 
+
+background: -o-linear-gradient(top,  #c19e67 58%,#f3e2c7 97%); 
+
+background: -ms-linear-gradient(top,  #c19e67 58%,#f3e2c7 97%); 
+
+background: linear-gradient(to bottom,  #c19e67 58%,#f3e2c7 97%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c19e67', endColorstr='#f3e2c7',GradientType=0 ); 
+
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+/* ok 11-5-13 this code is for a nav list with out <ul> </ul>
+#nav {
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 55px;
+	clear: both;
+	border: 2px solid #ff;
+	border: 2px solid #fff;
+	background-color: #D9D5B8;
+	opacity: 0.88;
+	color: black;
+	border-radius: 8px;
+}
+
+#nav a {
+	display: inline;
+	font-size: 21px;
+	font-weight: bold;
+	margin-right: 3%;
+	text-decoration: none;
+	margin-left: 4%;
+	opacity: 1;
+	color: black;
+}
+*/
+
+/*    End of October
+
+Trying to figure out why I can't get a box around my navigation links... taking this out for now
+	
+}
+#nav ul li a:link {
+	 color: #F1D945; 
+	 text-decoration: none; 
+}
+#nav ul li a:visted {
+}
+#nav ul li a:hover {
+	text-shadow: 4px 4px #000000;
+}
+#nav ul li a:active {
+}
+
+
+*/
+
+
+
+
+
+
+#header {
+	width: 100%;
+}
+#header h1 {
+	color: #F1D945;
+	font-weight: bold;
+	text-shadow: 4px 3px #000000;
+	font-size: 77px;
+	float: left;
+	margin-top: -12px;
+	/* [disabled]margin-right: -22px; */
+}
+
+#header img {
+	float: left;
+	margin-right: 8px;
+	border-radius: 10px;
+}
+
+#leftcolm {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	width: 296px;
+	float: left;
+	border: 2px solid white;
+	border-radius: 30px;
+	background-color: #D9D5B8;
+	clear: left;
+
+}
+#rightcolm {
+	float: left;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 52px;
+	width: 549px;
+	border: 2px solid white;
+	border-radius: 30px;
+	color: #000000;
+	background-color: #D9D5B8;
+
+}
+#container #header p {
+	color: #F1D945;
+	font-weight: bold;
+	text-shadow: 4px 3px black;
+	font-size: 21px;
+	float: left;
+	margin-top: -49px;
+	margin-left: 408px;
+	width: 100%;
+}
+#nav {
+	width: 100%;
+	background-color: #D9D5B8;
+	border-radius: 30px;
+	float: left;
+	clear: both;
+	margin-top: 4px;
+	padding-bottom: 12px;
+}
+#nav ul {
+	/* [disabled]padding-bottom: 18px; */
+}
+#nav ul li {
+	list-style-type: none;
+	display: block;
+	float: left;
+	margin-right: 38px;
+	font-size: 1.2em;
+	margin-left: 31px;
+	
+}
+#nav ul li a {
+	text-decoration: none;
+	color: black;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	
+	
+}
+#nav ul li a:hover {
+	background-color: #F1D945;
+	border-radius: 11px;
+	padding-top: 18px;
+	padding-bottom: 14px;
+}
+#footer {
+	border: 2px solid white;
+	padding-top: 11px;
+	/* [disabled]margin-left: -4px; */
+	width: 100%;
+	border-radius: 19px;
+	background-color: #D9D5B8;
+	margin-bottom: 78px;
+	left: 0px;
+	margin-top: -140px;
+	top: -94px;
+	position: relative;
+}
+
+#footer p {
+	text-align: right;
+	margin-bottom: 13px;
+	padding-right: 19px;
+	padding-top: 20px;
+	margin-top: -23px;
+
+
+}
+.k_design {
+	font-size: 0.8em;
+	font-style: italic;
+}
+.k_design a {
+	text-decoration: none;
+	color: #660406;
+}
+#love_coffee {
+	float: left;
+	width: 100%;
+}
+#love_coffee img {
+	border-radius: 30px;
+	margin-top: 13px;
+	/* [disabled]margin-bottom: 19px; */
+}
+#love_coffee h2 {
+	position: relative;
+	/* [disabled]left: 236px; */
+	color: #F1D945;
+	font-size: 55px;
+	text-shadow: 3px 3px black;
+	text-align: center;
+	margin-bottom: 11px;
+	margin-top: 5px;
+	top: -603px;
+}
+#rightcolm_home_page {
+	width: 95%;
+	color: #000000;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -212px;
+}
+#rightcolm_home_page p {
+	color: #F1D945;
+	font-size: 52px;
+	text-shadow: 3px 3px black;
+	text-align: center;
+}
