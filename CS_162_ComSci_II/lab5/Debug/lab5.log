@@ -1,0 +1,26 @@
+﻿Build started 9/24/2014 5:47:16 PM.
+     1>Project "C:\Users\josephkramer\Desktop\CS_162\Labs\lab5\lab5\lab5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt entry_list.cpp main.cpp my_utilities.cpp task_list.cpp user_interface.cpp
+         user_interface.cpp
+         task_list.cpp
+         my_utilities.cpp
+         main.cpp
+     1>c:\users\josephkramer\desktop\cs_162\labs\lab5\lab5\main.cpp(59): warning C4101: 'a_cDueDate' : unreferenced local variable
+     1>c:\users\josephkramer\desktop\cs_162\labs\lab5\lab5\main.cpp(58): warning C4101: 'assignmentDesc' : unreferenced local variable
+         entry_list.cpp
+         Generating Code...
+     1>c:\users\josephkramer\desktop\cs_162\labs\lab5\lab5\entry_list.cpp(270): warning C4715: 'EntryList::searchDeleteEntry' : not all control paths return a value
+     1>c:\users\josephkramer\desktop\cs_162\labs\lab5\lab5\my_utilities.cpp(121): warning C4715: 'verifyQuit' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\josephkramer\Desktop\CS_162\Labs\lab5\lab5\Debug\lab5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\josephkramer\Desktop\CS_162\Labs\lab5\lab5\Debug\lab5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\josephkramer\Desktop\CS_162\Labs\lab5\lab5\Debug\lab5.lib" /MACHINE:X86 Debug\entry_list.obj
+         Debug\main.obj
+         Debug\my_utilities.obj
+         Debug\task_list.obj
+         Debug\user_interface.obj
+         lab5.vcxproj -> C:\Users\josephkramer\Desktop\CS_162\Labs\lab5\lab5\Debug\lab5.exe
+     1>Done Building Project "C:\Users\josephkramer\Desktop\CS_162\Labs\lab5\lab5\lab5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.55
